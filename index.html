@@ -26,6 +26,8 @@
 <link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
 <link rel="stylesheet" media="screen" href="css/bootstrap-responsive.css"/>
 <link rel="stylesheet" media="screen" href="css/style.css"/>
+<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
 <!--jquery libraries / others are at the bottom-->
 <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -91,19 +93,19 @@ else
 {
 		$('#thumb-slider').flexslider({
 		animation: "slide",
-		controlNav: false,
+		controlNav: true,
 		animationLoop: false,
 		slideshow: true,
-		directionNav: false,
-		controlNav: false,
+		directionNav: true,
+		controlNav: true,
 		itemWidth: 180,
 		itemMargin: 0,
 		asNavFor: '#slider'
 		});
 		$('#slider').flexslider({
 		animation: "slide",
-		controlNav: false,
-		directionNav: false,
+		controlNav: true,
+		directionNav: true,
 		animationLoop: true,
 		slideshow: true,
 		sync: "#thumb-slider"
@@ -123,7 +125,7 @@ else
     <div class="row"> 
       
       <!--logo starts-->
-      <div class="span4 logo"><a href="#"><img src="img/logo.png" width="148" height="41" alt="logo"></a></div>
+      <div class="span4 logo"><a href="#"><img src="img/logo.png" width="200%" alt="logo"></a></div>
       <!--logo ends-->
       
       <div class="span8 clearfix"> 
@@ -136,6 +138,7 @@ else
         <!--social ends--> 
         
         <!--menu starts-->
+
         <div id="smoothmenu" class="ddsmoothmenu">
           <ul>
             <li><a href="index.html" class="selected">Home</a></li>
@@ -145,6 +148,7 @@ else
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
+
         <!--menu ends--> 
         
       </div>
@@ -176,7 +180,7 @@ else
                       Learn more of what we do, and how we do it!</h2>
                     <p>Pomasity is adjective we created which describes the way we work.  Agility, Execution, and Communicaiton are all we speak.  We delivery early.  We deliver often.</p>
                   </div>
-                  <div class="span6"> <img src="img/preview/tab-slide1.png" alt="slide" width="460"/> </div>
+                  <div class="span3"> <img src="img/preview/tab-slide1.png" alt="slide" height="100px"/> </div>
                 </div>
               </li>
               <!--slide one ends--> 
@@ -189,7 +193,7 @@ else
                       Learn about who we've helped and how.</h2>
                     <p> Hear directly from the horses mouth!  From Field Engineers on CVSR to Weld Inspectors on QCLNG, learn about how mobility has increased effecenty on site and in the trailer.</p>
                   </div>
-                  <div class="span6"> <img src="img/preview/tab-slide2.png" alt="slide" height="320"/> </div>
+                  <div class="span3"> <img src="img/preview/tab-slide2.png" alt="slide" height="320"/> </div>
                 </div>
               </li>
               <!--slide two ends--> 
@@ -201,7 +205,7 @@ else
                     <h2>AppStore:</h2>
                     <p>Explore the world of applications that have been developed by POMA for the field.  Simple as visting this <a href="https://appstore.mypsn.com/">link</a> on your mobile device.  Then you can download any app you find with just the click of a button!</p>
                   </div>
-                  <div class="span6"> <img src="img/preview/tab-slide3.png" alt="slide"/> </div>
+                  <div class="span3"> <img src="img/preview/tab-slide3.png" alt="slide"/> </div>
                 </div>
               </li>
               <!--slide three ends-->   

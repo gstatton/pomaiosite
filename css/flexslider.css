@@ -202,7 +202,7 @@ right: 0;
 /*---------- Thumbnail slider ----------*/
 /*============================================================*/
 #slider-bg {
-	background: url(../img/patterns/background.png) no-repeat scroll center top;
+	background: url(../img/patterns/background.jpg) no-repeat scroll;
 	width: 100%;
 	height: auto;
 	margin-bottom: 30px;
