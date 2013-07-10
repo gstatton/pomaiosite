@@ -103,7 +103,7 @@
 	// Define plugin defaults
 	$.fn.tweetable.options = {
 		limit: 5,                       // Number of tweets to show
-		username: 'philipbeel',         // @username tweets to display
+		username: 'bsiio',         // @username tweets to display
 		time: false,                    // Display date
 		rotate: false,                  // Rotate tweets
 		speed: 5000,                    // Speed of rotation
@@ -120,7 +120,7 @@
 // Twitter function
 $(function(){
 		$('#twitter').tweetable({
-		username: 'envato', 
+		username: 'bsiio', 
 		time: true,
 		rotate: false,
 		speed: 4000, 
