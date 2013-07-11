@@ -1039,7 +1039,7 @@ textarea:focus, input[type="text"]:focus, select:focus {
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	border: 4px;
+	border: 10px;
 }
 .ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a:hover {
 	background: transparent;
