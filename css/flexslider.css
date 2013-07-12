@@ -202,21 +202,31 @@ right: 0;
 /*---------- Thumbnail slider ----------*/
 /*============================================================*/
 #slider-bg {
-	background: url(../img/patterns/background.jpg) no-repeat scroll;
+	background: url(../img/patterns/background.jpg) no-repeat scroll center;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	margin-bottom: 30px;
 	color: #a7a7a7;
 	text-shadow: 0px 1px 0px #000;
 }
 #slider h2 {
 	font-size: 38px;
-	color: #d95b44;
+	color: #f48a21;
 	font-weight: 700;
 	line-height: 1.1em;
 	text-align: left;
 	margin-bottom: 20px;
 	margin-top: 10px;
+	text-shadow: none;
+}
+#slider p{
+	font-family: 'Abel', sans-serif;
+	font-size: 22px;
+	text-shadow: none;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 0;
+	line-height: 30px;
 }
 /*slider thumbnails*/
 #thumb-slider .thumb-text {

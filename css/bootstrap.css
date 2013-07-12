@@ -239,6 +239,9 @@ a:hover {
 .offset1 {
 	margin-left: 100px;
 }
+.offset-body {
+	margin-left: 50px;
+}
 .row-fluid {
 	width: 100%;
  *zoom: 1;
@@ -1486,7 +1489,7 @@ table {
  *margin-right: .3em;
  line-height: 14px;
  vertical-align: text-top;
- background-image: url("../img/glyphicons-halflings.png");
+ /*background-image: url("../img/glyphicons-halflings.png");*/
  background-position: 14px 14px;
  background-repeat: no-repeat;
 }

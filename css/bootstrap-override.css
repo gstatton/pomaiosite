@@ -32,10 +32,10 @@ ul li, ol li {
  margin-left: 20px;
 }
  .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
- width: 940px;
+ width: 960px;
 }
  .span12 {
- width: 940px;
+ width: 960px;
 }
  .span11 {
  width: 860px;

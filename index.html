@@ -26,6 +26,7 @@
 <link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
 <link rel="stylesheet" media="screen" href="css/bootstrap-responsive.css"/>
 <link rel="stylesheet" media="screen" href="css/style.css"/>
+
 <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
@@ -85,7 +86,7 @@ $(document).ready(function() {
 if($(window).width() < 959)
 {
 		$('#slider').flexslider({
-		directionNav: true,
+		directionNav: false,
 		controlNav: false,
 		});
 }
@@ -93,11 +94,11 @@ else
 {
 		$('#thumb-slider').flexslider({
 		animation: "slide",
-		controlNav: true,
+		controlNav: false,
 		animationLoop: false,
 		slideshow: true,
-		directionNav: true,
-		controlNav: true,
+		directionNav: false,
+		controlNav: false,
 		itemWidth: 180,
 		itemMargin: 1,
 		asNavFor: '#slider'
@@ -105,7 +106,7 @@ else
 		$('#slider').flexslider({
 		animation: "slide",
 		controlNav: true,
-		directionNav: true,
+		directionNav: false,
 		animationLoop: true,
 		slideshow: true,
 		sync: "#thumb-slider"
@@ -139,7 +140,6 @@ else
             <li><a href="about.html">About</a> </li>
             <li><a href="https://appstore.mypsn.com">AppStore</a>
             </li>
-            <!--<li><a href="contact.html">Contact</a></li>-->
           </ul>
         </div>
 
@@ -169,10 +169,10 @@ else
               <!--slide one starts-->
               <li>
                 <div class="row">
-                  <div class="span6 offset1">
-                    <h2>Pomasity:<br/>
-                      Learn more of what we do, and how we do it!</h2>
-                    <p>Pomasity is adjective we created which describes the way we work.  Agility, Execution, and Communicaiton are all we speak.  We delivery early.  We deliver often.</p>
+                  <div class="span6">
+                    <h2>Pomasity:<br/></h2>
+                     <p> Learn more of what we do, and how we do it!
+                    Pomasity is adjective we created which describes the way we work.  Agility, Execution, and Communicaiton are all we speak.  We delivery early.  We deliver often.</p>
                   </div>
                   <div class="span3"> <img src="img/preview/tab-slide1.png" alt="slide" height="100px"/> </div>
                 </div>
@@ -182,10 +182,10 @@ else
               <!--slide two starts-->
               <li>
                 <div class="row">
-                  <div class="span6 offset1">
-                    <h2>Field Proven:<br/>
-                      Learn about who we've helped and how.</h2>
-                    <p> Hear directly from the horses mouth!  From Field Engineers on CVSR to Weld Inspectors on QCLNG, learn about how mobility has increased effecenty on site and in the trailer.</p>
+                  <div class="span6">
+                    <h2>Field Proven:<br/></h2>
+                     <p>  Learn about who we've helped and how.
+                    Hear directly from the horses mouth!  From Field Engineers on CVSR to Weld Inspectors on QCLNG, learn about how mobility has increased effecenty on site and in the trailer.</p>
                   </div>
                   <div class="span3"> <img src="img/preview/tab-slide2.png" alt="slide" height="320"/> </div>
                 </div>
@@ -195,11 +195,11 @@ else
               <!--slide three starts-->
               <li>
                 <div class="row">
-                  <div class="span6 offset1">
+                  <div class="span6">
                     <h2>AppStore:</h2>
                     <p>Explore the world of applications that have been developed by POMA for the field.  Simple as visting this <a href="https://appstore.mypsn.com/">link</a> on your mobile device.  Then you can download any app you find with just the click of a button!</p>
                   </div>
-                  <div class="span3"> <img src="img/preview/tab-slide3.png" alt="slide"/> </div>
+                  <div class="span4"> <img src="img/app_store_graphic.png" alt="slide"/> </div>
                 </div>
               </li>
               <!--slide three ends-->   
@@ -213,25 +213,24 @@ else
     </div>
   </div>
   <!--slider-bg ends-->
-  
+      <div class="spacer-30px"></div>
+          <div class="spacer-30px"></div>
   <div class="container"> 
     
     <!--features starts-->
     <div class="row">
       <div class="span12">
-        <ul class="list-3col text-center">
+        <ul class="list-3col text-left chunklet-mid">
           <li>
-            <div class="icon-bg"><img src="img/icons/icon1-iphone.png" width="120" height="120" alt="icon"></div>
-            <h2>Who We Are</h2>
-            We are the Project Office for Mobile Applications. Our Goal is to extend the value of our data with mobility. Originally focused on delivering Applications for the iPhone/iPad, POMA has now broadened to deliver a data-rich user experience across all mobile platforms. We understand that it's the data is important. </li>
+            <h2 class="heading-icon clearfix"><img src="img/icons/chunklet_icon_1.png" alt="icon" class="icon-small-bg"> Who We Are</h2>
+
+            <p class="offset-body">We are the Project Office for Mobile Applications. Our Goal is to extend the value of our data with mobility. Originally focused on delivering Applications for the iPhone/iPad, POMA has now broadened to deliver a data-rich user experience across all mobile platforms. We understand that it's the data is important.</p> </li>
           <li>
-            <div class="icon-bg"><img src="img/icons/icon1-leaf.png" width="120" height="120" alt="icon"></div>
-            <h2>Problems We Solve</h2>
-            We strive to understand the issues people are facing in the field.  Problem solving is at our core and we do it well.  By engaging with us we will start to think like you, act like you, and work like you so that we can deliver an application that works intuitivly to solve your business needs.</li>
+            <h2 class="heading-icon clearfix"><img src="img/icons/chunklet_icon_2.png" class="icon-small-bg">Problems We Solve</h2>
+            <p class="offset-body">We strive to understand the issues people are facing in the field.  Problem solving is at our core and we do it well.  By engaging with us we will start to think like you, act like you, and work like you so that we can deliver an application that works intuitivly to solve your business needs.</p></li>
           <li>
-            <div class="icon-bg"><img src="img/icons/icon1-create.png" width="120" height="120" alt="icon"></div>
-            <h2>How to Work With Us</h2>
-           Engage. Engage. Engage. By sending an email to: <a href="mailto:poma@bechtel.com">poma@bechtel.com</a> a Product Specialist will reach out to you to start the process. Who else knows what <b><i>you</i></b> do better then <b><i>you</i></b>? Let us work along side you to understand your pain points, work process, and work conditions to simplify your life with mobility.</li>
+            <h2 class="heading-icon clearfix"><img src="img/icons/chunklet_icon_3.png" alt="icon" class="icon-small-bg">Work With Us</h2>
+           <p class="offset-body">Engage. Engage. Engage. By sending an email to: <a href="mailto:poma@bechtel.com">poma@bechtel.com</a> a Product Specialist will reach out to you to start the process. Who else knows what <b><i>you</i></b> do better then <b><i>you</i></b>? Let us work along side you to understand your pain points, work process, and work conditions to simplify your life with mobility.</p></li>
         </ul>
       </div>
     </div>
@@ -239,7 +238,7 @@ else
     
     <!--spacer here-->
     <div class="spacer-40px"></div>
-    
+        <div class="spacer-40px"></div>
     <!--carousel starts-->
     <div class="row">
       <div class="span12"> 
